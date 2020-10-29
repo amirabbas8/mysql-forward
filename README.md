@@ -5,8 +5,7 @@ Forward MySQL to MySQL
 ## Basic usage
 
 ```sh
-$ docker run -e MYSQL_USER=user -e MYSQL_PASSWORD=password -e MYSQL_HOST=localhost \
-  -e MYSQL_DEST_USER=user -e MYSQL_DEST_PASSWORD=password -e MYSQL_DEST_HOST=localhost amirabbas8/mysql-forward
+$ docker run -e MYSQL_USER=user -e MYSQL_PASSWORD=password -e MYSQL_HOST=localhost -e MYSQL_DEST_USER=user -e MYSQL_DEST_PASSWORD=password -e MYSQL_DEST_HOST=localhost amirabbas8/mysql-forward
 ```
 
 ## Environment variables
